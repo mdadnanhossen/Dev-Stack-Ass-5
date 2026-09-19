@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@theme { 
+  --font-jakarta : "Plus Jakarta Sans", sans-serif;
+  /* ===== Base ===== */
+  --color-page: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f8fafc;
+
+  /* ===== Text ===== */
+  --color-text: #0a0f1d;
+  --color-text-secondary: #475467;
+  --color-muted: #667085;
+
+  /* ===== Brand ===== */
+  --color-primary: #d91b7e;
+  --color-primary-soft: #fce7f5;
+
+  /* ===== Accent ===== */
+  --color-accent: #e2549e;
+  --color-accent-soft: #f6c9dd;
+
+  /* ===== Orange ===== */
+  --color-orange: #fe5624;
+  --color-orange-soft: #fff0eb;
+
+  /* ===== Blue ===== */
+  --color-blue: #007acc;
+  --color-blue-soft: #eaf5ff;
+
+  /* ===== Green ===== */
+  --color-success: #3fb08c;
+  --color-success-soft: #ecfdf5;
+
+  /* ===== Yellow ===== */
+  --color-warning: #f0db4f;
+  --color-warning-soft: #fffbea;
+
+  /* ===== Red ===== */
+  --color-danger: #ea3754;
+  --color-danger-soft: #fff1f2;
+
+  /* ===== Dark ===== */
+  --color-dark: #0a0f1d;
+  --color-dark-soft: #111827;
+
+  /* ===== Border ===== */
+  --color-border: #e5e7eb;
+  --color-border-light: #eef0f3;
+}
