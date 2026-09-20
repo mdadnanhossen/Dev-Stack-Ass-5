@@ -16,6 +16,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+
 .brand-button {
   background: var(--brand-gradient);
+}
+.brand-gradient-hover:hover {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
