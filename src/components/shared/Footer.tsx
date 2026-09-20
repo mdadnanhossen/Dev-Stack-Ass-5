@@ -19,15 +19,15 @@ const Footer = () => {
 
             {/* Social Links */}
             <div className="mt-6 flex gap-5 text-sm font-medium text-gray-700">
-              <a href="#" className="hover:text-pink-500">
+              <a href="#" className="brand-gradient">
                 GitHub
               </a>
 
-              <a href="#" className="hover:text-pink-500">
+              <a href="#" className="brand-gradient">
                 Twitter
               </a>
 
-              <a href="#" className="hover:text-pink-500">
+              <a href="#" className="brand-gradient">
                 LinkedIn
               </a>
             </div>
