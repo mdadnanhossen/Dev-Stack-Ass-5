@@ -41,19 +41,18 @@ const Footer = () => {
 
             <ul className="mt-4 space-y-3 text-sm text-gray-500">
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Home
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Technologies
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Projects
                 </a>
               </li>
@@ -68,19 +67,19 @@ const Footer = () => {
 
             <ul className="mt-4 space-y-3 text-sm text-gray-500">
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Contact
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Careers
                 </a>
               </li>
@@ -95,13 +94,13 @@ const Footer = () => {
 
             <ul className="mt-4 space-y-3 text-sm text-gray-500">
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Privacy Policy
                 </a>
               </li>
 
               <li>
-                <a href="#" className="hover:text-gray-900">
+                <a href="#" className="brand-gradient-hover">
                   Terms of Service
                 </a>
               </li>
@@ -113,7 +112,7 @@ const Footer = () => {
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-gray-200 pt-8 text-sm text-gray-400 sm:flex-row sm:items-center">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
-          <a href="#" className="hover:text-gray-700">
+          <a href="#" className="brand-gradient-hover">
             Privacy
           </a>
         </div>
