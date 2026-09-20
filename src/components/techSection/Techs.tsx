@@ -21,7 +21,7 @@ const Techs = ({ tech, handleSavedTech, saved }: TechCardProps) => {
         selected ? "border-pink-500" : "border-gray-200"
       }`}
     >
-      {/* Top Section */}
+ 
       <div className="flex items-start justify-between">
         <img src={icon} alt={name} className="h-7 w-7 object-contain" />
 
@@ -30,7 +30,7 @@ const Techs = ({ tech, handleSavedTech, saved }: TechCardProps) => {
         </span>
       </div>
 
-      {/* Technology Info */}
+
       <div className="mt-4 flex flex-1 flex-col">
         <h3 className="text-base font-bold text-gray-900">{name}</h3>
 
@@ -38,7 +38,7 @@ const Techs = ({ tech, handleSavedTech, saved }: TechCardProps) => {
           {description}
         </p>
 
-        {/* Meta Information */}
+ 
         <div className="mt-4 flex items-center justify-between text-[10px] text-gray-500">
           <span className="rounded bg-gray-100 px-2 py-1">{category}</span>
 
@@ -47,7 +47,6 @@ const Techs = ({ tech, handleSavedTech, saved }: TechCardProps) => {
           <span className="flex items-center gap-1">★ {rating}</span>
         </div>
 
-        {/* Button */}
         <button
           disabled={selected}
           onClick={() => handleSavedTech(tech)}

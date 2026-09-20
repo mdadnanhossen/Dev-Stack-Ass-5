@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-gray-200 bg-white">
       <div className="container mx-auto  py-12">
-        {/* Main Footer */}
+        
         <div className="grid grid-cols-1 gap-10 md:grid-cols-5">
           {/* Brand */}
           <div className="md:col-span-2">
@@ -17,7 +17,6 @@ const Footer = () => {
               modern software.
             </p>
 
-            {/* Social Links */}
             <div className="mt-6 flex gap-5 text-sm font-medium text-gray-700">
               <a href="#" className="brand-gradient">
                 GitHub
@@ -33,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product */}
+
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
               Product
@@ -59,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
+    
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
               Company
@@ -86,7 +85,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
+  
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-900">
               Legal
@@ -108,9 +107,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Footer */}
+
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-gray-200 pt-8 text-sm text-gray-400 sm:flex-row sm:items-center">
-          <p>© 2026 Dev Stack. All rights reserved.</p>
+          <p>© 2026 DevStack. All rights reserved.</p>
 
           <a href="#" className="brand-gradient-hover">
             Privacy

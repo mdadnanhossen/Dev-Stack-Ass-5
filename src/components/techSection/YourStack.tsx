@@ -35,7 +35,7 @@ const YourStack = ({
          
         </div>
 
-        {/* Empty State */}
+
         {techs.length === 0 ? (
           <div className="rounded-lg border border-dashed border-gray-200 py-8 text-center">
             <p className="text-xs text-gray-400">
@@ -43,7 +43,7 @@ const YourStack = ({
             </p>
           </div>
         ) : (
-          /* Selected Technologies */
+  
           <div className="grid gap-3">
             {techs.map((tech) => (
               <div
@@ -79,7 +79,6 @@ const YourStack = ({
           </div>
         )}
 
-        {/* Clear Button */}
         <button
           type="button"
           disabled={techs.length === 0}
