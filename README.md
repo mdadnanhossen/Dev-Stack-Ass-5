@@ -3,11 +3,11 @@ Dev Stack
 Dev Stack is a web application that helps developers explore different technologies and build their own technology stack. Users can view technology details and add their preferred technologies to their stack.
 
 Technologies Used
-React
-JavaScript (ES6+)
-Tailwind CSS
-React Icons
-JSON
+1.React
+2.JavaScript (ES6+)
+3.Tailwind CSS
+4.React Icons
+5.JSON
 Features
 Browse different technologies with their category, description, difficulty, rating, and badge.
 Add selected technologies to the "Your Stack" section.
@@ -40,6 +40,5 @@ Conditional rendering means showing different content based on a condition. I us
 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
 A parent passes data to a child through props. A child can communicate back by calling a function passed from the parent through props.
-
-         Parent → Child = Props
-         Child → Parent = Callback function through props
+   parent -> child = props
+   child -> parents = callback function through props
